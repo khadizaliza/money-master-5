@@ -1,11 +1,50 @@
 
+body{
+    background: #fff;
+}
+.money-tital{
+    display: flex;
+    font-size: 50px;
+}
+.logo{
+    text-align: center;
+    
+}
 
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.blog-img{
+    width: 100%;
+    height: 100%;
+}
+.blog-1{
+    padding: 20px;
+}
+.blog-2{
+    padding: 20px;
+    text-align: center;
+}
+.income{
+    padding: 10px 60px;
+}
+.come{
+    width: 30px;
+    height: 10px;
+    background-color: cornsilk;
+}
+.calculate{
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
 
-
-
-
-
-
+}
+.save-btn{
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px 20px;
+}
 
 
 

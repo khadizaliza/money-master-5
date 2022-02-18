@@ -5,11 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Money Saver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+   <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
-
+    
 </head>
 <body>
+    <section class="container p-8">
+        <div> 
+            
+            <div class="logo mb-2 text-center">
+                <h2 class="money-tital">Money Saver<img src="images/02.jpg" alt=""></h2>
+                
+            </div>
+         
+        <div class="money-blog">
+         <div class="row">
+             <div class="col-md-12 col-lg-6 blog-1">
+                <img class="blog-img p-8 text-purple-800" src="images/04.jpg" alt="">
+            </div>
+         <div class="col-md-12 col-lg-6 bg-indigo-100 g-2 p-8 blog-2">
+            <h2 class="month g-2 p-8 text-2xl">My Income Distrebution</h2>
+            <p>Monthly Income : <input id="income-input" class="border border-gray-400 rounded" type="text" placeholder=""></p>
+            <h3 class="month g-2 py-4 text-2xl">Expenses</h3>
+            <p class="food py-4 space-y-1.5">Food : <input id="food-input" class="border border-gray-400 rounded" type="text" placeholder=""></p>
+        
+            <p class="rent py-4">Rent : <input id="rent-input" class="border border-gray-400 rounded" type="text" placeholder=""></p>
+            <p class="clothes py-4">Clothes : <input id="clothes-input" class="border border-gray-400 rounded" type="text" placeholder=""></p>
+            
+            <button id="calculate-btn" class="calculate bg-primary">Calculate</button>
+            <h3 class=" py-4 text-2xl">Total Expenses :<span id="ex-total">00</span></h3>
+            <h3 class="py-4 text-2xl">Balance: <span id="balance-total">00</span></h3>
+            <div class="save">
+                <span class="title">Save : </span>
+                <input type="text" class="save-input">
+                <span>%</span>
+                <button class="save-btn">Save</button>
+            </div>
+            <div class="saving">
+                <p class="saving-amount g-2">Saving Amount:
+                    <span class="save-amount">0</span>
+                </p>
+                
+            </div> 
+            <p>Remaining:<span id="remaining">0</span> </p>
+
+         </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+       
     
 
 
