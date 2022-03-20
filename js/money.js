@@ -17,12 +17,19 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     const expensesTotal = parseFloat(exAmount);
    
     exTotal.innerText = foodTotal + rentTotal + clothesTotal;
-    const incomeTotal = document.getElementById('income-input');
-    const incomeAmount = incomeTotal.value;
-    const incomeTotal = document.getElementById('balance-total');
-    const balanceAmount = balanceTotal.innerText;
-    balanceTotal.innerText = exTotal.innerText + 
+     const incomeInput = document.getElementById('income-input');
+     const incomeAmount = incomeInput.value;
+    //  console.log(incomeAmount)
+     const incomeTotal = parseFloat(incomeAmount);
+     const balanceTotal = document.getElementById('balance-total');
+     const balanceAmount = balanceTotal.innerText;
+     const balanceTotalAmount = parseFloat(balanceAmount);
+     const totalBalance = incomeAmount - exTotal.innerText;
+     
+     balanceTotal.innerText = totalBalance;
 })
+
+
 
 
 
