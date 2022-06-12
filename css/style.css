@@ -32,7 +32,7 @@ body{
 .come{
     width: 30px;
     height: 10px;
-    background-color: cornsilk;
+    background-color: rgb(224, 216, 187);
 }
 .calculate{
     color: #fff;
@@ -41,7 +41,7 @@ body{
 
 }
 .save-btn{
-    background-color: cornflowerblue;
+    background-color: rgb(92, 146, 245);
     color: #fff;
     padding: 10px 20px;
 }
